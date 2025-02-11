@@ -1,0 +1,203 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #f6d365, #fda085); 
+    color: #333;
+}
+
+header {
+    background-color: #ff6347; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+header .icon {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+/* Main content styling */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Form section styling */
+.form-section {
+    background-color: #ffffff; 
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px); 
+    border: 2px solid #ff6347; 
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    width: calc(100% - 22px);
+    padding: 15px; 
+    margin-bottom: 15px;
+    border: 2px solid #ddd; 
+    border-radius: 5px;
+    font-size: 16px; 
+    transition: border-color 0.3s ease; 
+    background-color: #f4f4f4;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff6347;
+}
+
+form button {
+    background-color: #ff6347; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #e5533d; 
+}
+
+/* Recipes section styling */
+.recipes-section {
+    flex: 1; 
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.recipes-section h2 {
+    text-align: center;
+    color: #ff6347; 
+}
+
+/* Recipe card styling */
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+.recipe:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.recipe img {
+    width: 120px; 
+    height: 120px;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+    object-fit: cover; 
+}
+
+.recipe div {
+    flex: 1;
+}
+
+.recipe h3 {
+    margin: 0;
+    color: #333;
+}
+
+.recipe .ingredients-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.recipe ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
+.recipe .instructions-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.recipe ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.recipe p {
+    margin: 5px 0;
+}
+
+/* Button styling */
+.recipe button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.recipe button:hover {
+    background-color: #dc143c; 
+}
+
+/* Customized input and textarea styles */
+form input, form textarea {
+    background-color: #f4f4f4; 
+    border: 2px solid #ddd; 
+    padding: 15px;
+    font-size: 16px; 
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff6347;
+}
+
+/* Styling for "Add a New Recipe" section */
+.form-section {
+    border: 2px solid #ff6347; 
+    background-color: #fff3e0; 
+}
+
+form h2 {
+    color: #ff6347;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form button {
+    background-color: #ff6347; 
+}
+
+form button:hover {
+    background-color: #e5533d; 
+}
